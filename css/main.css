@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,500');
+
+body {
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	color: #ffffff;
+    text-align: center;
+    background-image:url('../images/bg.jpg');
+    background-size: cover;
+}
+
+h1 {
+	font-family: Playfair Display, serif;
+	font-weight: 700;
+    font-size: 60px;
+    position: relative;
+}
+
+h2 {
+	font-family: Playfair Display, serif;
+	font-weight: 700;
+}
+
+.part-1,
+.part-2,
+.part-3,
+.part-4,
+.part-5, {
+  position: absolute;
+  opacity: 1;
+  transition: all 1s ease-in-out;
+  right: 50%;
+}
+
+.part-1 {
+  top: 1880px;
+}
+
+.part-2 {
+  top: 2810px;
+}
+
+.part-3 {
+  top: 3460px;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateX(50%);
+}
+
+.slide-0 {
+    padding-top: 250px;
+    text-align: center;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+
+.animated {
+  transform: translateX(50%);
+  opacity: 0;
+}
+
+.slide-1,
+.slide-2,
+.slide-3,
+.slide-4,
+.slide-5 {
+    padding-top: 500px;
+    padding-bottom: 200px;
+}
+
+.slide-5 {
+    padding-bottom: 400px;
+}
+
+.arrow {
+    padding-top: 200px;
+}
+
+/*images positioning*/
+
+.images-1,
+.images-2,
+.images-3,
+.images-4,
+.images-5 {
+    position: relative;
+}
+
+.laptop {
+position: absolute;
+left: 15%;
+top: -280px;
+}
+
+.degree {
+position: absolute;
+left: 75%;
+top: -207px;
+}
+
+.papers {
+position: absolute;
+left: 65%;
+top: -20px;
+}
+
+.food {
+position: absolute;
+left: 70%;
+top: -236px;
+}
+
+.briefcase {
+position: absolute;
+left: 17%;
+top: -195px;
+}
+
+.world {
+position: absolute;
+left: 27%;
+top: 0px;
+}
+
+.growth {
+position: absolute;
+left: 17%;
+top: -175px;
+}
+
+.buildings {
+position: absolute;
+left: 75%;
+top: -211px;
+}
+
+.people {
+position: absolute;
+left: 60%;
+top: 20px;
+}
+
+.ga {
+position: absolute;
+left: 72%;
+top: -265px;
+}
+
+.skills {
+position: absolute;
+left: 13%;
+top: -181px;
+}
+
+.coffee {
+position: absolute;
+left: 28%;
+top: 25px;
+}
+
+.freelance {
+position: absolute;
+left: 15%;
+top: -234px;
+}
+
+.happy {
+position: absolute;
+left: 72%;
+top: -173px;
+}
+
+.code {
+position: absolute;
+left: 64%;
+top: 8px;
+}
